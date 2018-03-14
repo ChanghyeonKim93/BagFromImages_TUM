@@ -1,6 +1,8 @@
-# BagFromImages
+# BagFromImages_TUM
 
-ROS package to generate a rosbag from a collection of images. Images are ordered alphabetically. The timestamp for each image is assigned according to the specified frequency. 
+This ROS package is a derived version of BagFromImages ( Ataiya ). 
+I modified the timestamp to become same as ssociation files of TUM RGB-D datasets.
+
 
 The bag will publish the images to topic `/camera/image_raw`.
 
@@ -9,10 +11,8 @@ Tested in ROS Fuerte.
 ## Installation
 
 In your ROS_PACKAGE_PATH (check your environment variable ROS_PACKAGE_PATH):
-
-    git clone https://github.com/raulmur/BagFromImages.git BagFromImages
     
-    cd BagFromImages
+    cd BagFromImages_TUM
     mkdir build
     cd build
     cmake ..
