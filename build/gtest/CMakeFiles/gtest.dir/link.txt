@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG   -shared -Wl,-soname,libgtest.so -o /home/icslkch/catkin_ws/src/BagFromImages/lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/opt/ros/indigo/lib  -L/home/icslkch/catkin_ws/src/BagFromImages/build/gtest/src -lpthread -Wl,-rpath,/opt/ros/indigo/lib:/home/icslkch/catkin_ws/src/BagFromImages/build/gtest/src 

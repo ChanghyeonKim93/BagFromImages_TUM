@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/icslkch/catkin_ws/src/BagFromImages/build/devel/setup.sh
